@@ -1,0 +1,77 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1s ease;
+}
+
+section {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+img:hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+}
+
+.tab-btn {
+  background-color: transparent;
+  color: #9ca3af;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  background-color: rgba(99, 102, 241, 0.15);
+  color: #c7d2fe;
+}
+
+.tab-btn-active {
+  background-color: rgba(99, 102, 241, 0.3);
+  color: #fff;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+  transition: all 0.3s ease;
+}
+
+.tab-btn-active:hover {
+  background-color: rgba(99, 102, 241, 0.4);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.7);
+}
+
+/* Grid pengatur jarak antar ikon */
+#contentTech .grid {
+  gap: 1.25rem; /* sebelumnya 1.5–2rem, sekarang lebih rapat */
+}
+
+/* Card tiap teknologi */
+.tech-card {
+  background-color: #141436;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  text-align: center;
+  width: 130px;          /* dari 110px → lebih besar */
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.1);
+}
+
+.tech-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
+}
+
+/* Ukuran gambar diperbesar */
+.tech-card img {
+  width: 60px;           /* dari 40px → lebih besar */
+  height: 60px;
+  margin: 0 auto 0.75rem;
+}
+
+/* Tulisan tetap proporsional */
+.tech-card p {
+  color: #e5e7eb;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
