@@ -15,7 +15,7 @@ It was designed to be clean, responsive, and easy to maintain — perfect for in
 ---
 
 ## ⚙️ Tech Stack
-- **HTML5**, **CSS3**, **JavaScript**
+- **HTML**, **CSS**, **JavaScript**
 - **Tailwind CSS** for styling
 - **GitHub Pages** for hosting
 - **Figma** for initial UI/UX design concept
